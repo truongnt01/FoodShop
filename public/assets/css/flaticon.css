@@ -1,0 +1,55 @@
+/*
+Flaticon icon font: Flaticon
+*/
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/Flaticon.eot");
+	src: url("../fonts/Flaticond41d.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/Flaticon.woff2") format("woff2"),
+	url("../fonts/Flaticon.woff") format("woff"),
+	url("../fonts/Flaticon.ttf") format("truetype"),
+	url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "Flaticon";
+		src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+	}
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+	font-style: normal;
+}
+
+
+.flaticon-shopping-cart:before { content: "\f100"; }
+.flaticon-plus:before { content: "\f101"; }
+.flaticon-share:before { content: "\f102"; }
+.flaticon-hamburger:before { content: "\f103"; }
+.flaticon-boiled:before { content: "\f104"; }
+.flaticon-frappe:before { content: "\f105"; }
+.flaticon-tea-cup:before { content: "\f106"; }
+.flaticon-pizza-slice:before { content: "\f107"; }
+.flaticon-calendar:before { content: "\f108"; }
+.flaticon-phone-ringing:before { content: "\f109"; }
+.flaticon-chat:before { content: "\f10a"; }
+.flaticon-aim:before { content: "\f10b"; }
+.flaticon-play-button:before { content: "\f10c"; }
+.flaticon-phone:before { content: "\f10d"; }
+.flaticon-courier:before { content: "\f10e"; }
+.flaticon-desk-bell:before { content: "\f10f"; }
+.flaticon-bar-service:before { content: "\f110"; }
+.flaticon-almond:before { content: "\f111"; }
+.flaticon-coconut-drink:before { content: "\f112"; }
+.flaticon-branch:before { content: "\f113"; }
+.flaticon-email:before { content: "\f114"; }
+.flaticon-hot-cup:before { content: "\f115"; }
+.flaticon-search:before { content: "\f116"; }
+.flaticon-cursor:before { content: "\f117"; }
+.flaticon-world:before { content: "\f118"; }
+.flaticon-left-arrow-1:before { content: "\f119"; }
+.flaticon-remove:before { content: "\f11a"; }
+.flaticon-right-arrow-1:before { content: "\f11b"; }
