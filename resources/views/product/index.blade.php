@@ -1,6 +1,10 @@
 @extends('Layouts.app')
+@section('layout')
+    <link rel="stylesheet" href="{{ asset('index.css') }}">
+@endsection
 @section('content')
 <main>
+    
     <h1>Products list</h1>
     @if ($message = Session::get('success'))
         <div>
@@ -34,10 +38,10 @@
                         <td>{{ $value->name }}</td>
                         <td><img style="width: 60px" src="{{ asset('/image/' .$value->image) }}" alt="This is a picture"></td>
                         <td>{{ $value->email }}</td>
+                        
                         <td>{{ $value->address }}</td>
                         <td>
-                            <a href="{{ route('products.edit',$value->id) }}" class="custom-link">Change</a>                            
-                            
+                            <button><a href="{{ route('products.edit',$value->id) }}" class="custom-link">Change</a> </button>                           
                             <form action="{{ route('products.destroy', $value->id) }}" method="post" onclick="deleteConfirm(event)">
                             @method('delete')
                             @csrf
